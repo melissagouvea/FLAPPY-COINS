@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+
+# Dependências (caso você adicione no futuro)
+node_modules/
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
