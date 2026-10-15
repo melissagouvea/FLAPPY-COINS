@@ -5,7 +5,7 @@ html,body{height:100%;margin:0;background:var(--bg)}
 body{display:grid;place-items:center;font-family:Fredoka,system-ui,sans-serif;color:var(--tx);overflow:hidden;touch-action:manipulation}
 #st{position:fixed;inset:0;display:grid;place-items:center;overflow:hidden}
 #col{position:absolute;left:50%;transform:translateX(-50%);top:env(safe-area-inset-top,0px);bottom:env(safe-area-inset-bottom,0px);width:min(100vw,calc((100vh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px))*.5625));width:min(100vw,calc((100dvh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px))*.5625));container-type:size;pointer-events:none}
-#c{position:absolute;inset:0;width:100%;height:100%;touch-action:none}
+#c{display:block;touch-action:none}
 #ui{position:absolute;inset:0;pointer-events:none;font-size:4.4cqw}
 .scr{position:absolute;inset:0;display:flex;flex-direction:column;gap:2.5cqw;padding:5cqw}
 .card{background:var(--pn);border-radius:5cqw;padding:2.5cqw 4cqw;box-shadow:var(--sh);pointer-events:auto}
